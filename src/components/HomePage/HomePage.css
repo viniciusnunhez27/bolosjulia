@@ -1,0 +1,47 @@
+
+.img-slide {
+height: 500px;
+width: 1500px;
+}
+
+.content p {
+    text-align: center;
+    padding: 40px;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 58.5px;
+}
+
+.produtos  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info span {
+font-family: Quicksand;
+margin-top: 10px;
+font-size: 30px;
+font-weight: 700;
+line-height: 37.5px;
+}
+
+.info p {
+    max-width:234px;
+}
+
+.info button {
+    margin-top: 10px;
+    width: 150px;
+    height: 40px;
+    background-color: #AED9E0;
+    border-radius: 16px;
+    border: none;
+}
