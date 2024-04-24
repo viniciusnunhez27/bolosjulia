@@ -5,6 +5,7 @@ import Logo from  "../../assets/logo.png"
 
 function Header () {
    return (
+    <div className="grid">
      <div className="container">
        <div className="nav-bar">
          <img src={Logo} alt="" />
@@ -14,6 +15,7 @@ function Header () {
            <li>Bolos</li>
          </ul>
        </div>
+      </div>
      </div>
    )
 }
